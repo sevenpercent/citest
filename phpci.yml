@@ -5,6 +5,7 @@ build_settings:
 setup:
     composer:
         action: "install"
+        dev: false
 
 test:
     php_unit:
